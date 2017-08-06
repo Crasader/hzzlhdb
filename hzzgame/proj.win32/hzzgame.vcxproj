@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\code\waibao\hzzgameLHDB\hzzgame\hzzlhdb\cocos2d;$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\..\Classes;..\..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <CustomBuildStep>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
+      </Command>
+      <Outputs>$(TargetName).cab</Outputs>
+      <Inputs>$(TargetFileName)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>E:\hzzgame\hzzgame\cocos2d;$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl_imp.lib;websockets.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\base\base_util.cpp" />
+    <ClCompile Include="..\Classes\base\convert.cpp" />
+    <ClCompile Include="..\Classes\base\JsonAide.cpp" />
+    <ClCompile Include="..\Classes\base\MD5.cpp" />
+    <ClCompile Include="..\Classes\common\custom_event.cpp" />
+    <ClCompile Include="..\Classes\common\UIDialog.cpp" />
+    <ClCompile Include="..\Classes\common\UIHelperEx.cpp" />
+    <ClCompile Include="..\Classes\data\global_user_info.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_back_card.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_card.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_logic.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_result.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_scene.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\ddz_out_card.cpp" />
+    <ClCompile Include="..\Classes\games\ddz\dialog_box.cpp" />
+    <ClCompile Include="..\Classes\games\game_installer.cpp" />
+    <ClCompile Include="..\Classes\kernel\game_kernel.cpp" />
+    <ClCompile Include="..\Classes\kernel\game_table_proxy.cpp" />
+    <ClCompile Include="..\Classes\kernel\game_user_manager.cpp" />
+    <ClCompile Include="..\Classes\kernel\plaza_kernel.cpp" />
+    <ClCompile Include="..\Classes\kernel\server_kernel.cpp" />
+    <ClCompile Include="..\Classes\network\packet_helper.cpp" />
+    <ClCompile Include="..\Classes\network\QPCipher.cpp" />
+    <ClCompile Include="..\Classes\network\Socket.cpp" />
+    <ClCompile Include="..\Classes\network\socket_engine.cpp" />
+    <ClCompile Include="..\Classes\network\socket_notify.cpp" />
+    <ClCompile Include="..\Classes\Platform\win32\coPlatformWin32.cpp" />
+    <ClCompile Include="..\Classes\scene\Auction_Box.cpp" />
+    <ClCompile Include="..\Classes\scene\Auction_Scene.cpp" />
+    <ClCompile Include="..\Classes\scene\bank_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\CheckIn_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\dialog_bank_password_modify.cpp" />
+    <ClCompile Include="..\Classes\scene\dialog_msg_box.cpp" />
+    <ClCompile Include="..\Classes\scene\dialog_password_modify.cpp" />
+    <ClCompile Include="..\Classes\scene\dialog_waiting.cpp" />
+    <ClCompile Include="..\Classes\scene\Exchange_Box.cpp" />
+    <ClCompile Include="..\Classes\scene\Exchange_Scene.cpp" />
+    <ClCompile Include="..\Classes\scene\lobby_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\login_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\prompt_box.cpp" />
+    <ClCompile Include="..\Classes\scene\ranking_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\RechargeSelect1.cpp" />
+    <ClCompile Include="..\Classes\scene\RechargeSelect2.cpp" />
+    <ClCompile Include="..\Classes\scene\RechargeSelect3.cpp" />
+    <ClCompile Include="..\Classes\scene\RechargeSelect4.cpp" />
+    <ClCompile Include="..\Classes\scene\RechargeSelect5.cpp" />
+    <ClCompile Include="..\Classes\scene\register_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\room_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\setting_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\splash_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\store_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\userinfo_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\web_scene.cpp" />
+    <ClCompile Include="..\Classes\scene\WXShare.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\base\base_util.h" />
+    <ClInclude Include="..\Classes\base\basictypes.h" />
+    <ClInclude Include="..\Classes\base\convert.h" />
+    <ClInclude Include="..\Classes\base\JsonAide.h" />
+    <ClInclude Include="..\Classes\base\MD5.h" />
+    <ClInclude Include="..\Classes\common\custom_event.h" />
+    <ClInclude Include="..\Classes\common\UIDialog.h" />
+    <ClInclude Include="..\Classes\common\UIHelperEx.h" />
+    <ClInclude Include="..\Classes\data\global_user_info.h" />
+    <ClInclude Include="..\Classes\games\ddz\CMD_Ddz.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_back_card.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_card.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_logic.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_result.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_scene.h" />
+    <ClInclude Include="..\Classes\games\ddz\ddz_out_card.h" />
+    <ClInclude Include="..\Classes\games\ddz\dialog_box.h" />
+    <ClInclude Include="..\Classes\games\game_installer.h" />
+    <ClInclude Include="..\Classes\kernel\game_kernel.h" />
+    <ClInclude Include="..\Classes\kernel\game_table_proxy.h" />
+    <ClInclude Include="..\Classes\kernel\game_user_manager.h" />
+    <ClInclude Include="..\Classes\kernel\plaza_kernel.h" />
+    <ClInclude Include="..\Classes\kernel\server_kernel.h" />
+    <ClInclude Include="..\Classes\network\packet_helper.h" />
+    <ClInclude Include="..\Classes\network\QPCipher.h" />
+    <ClInclude Include="..\Classes\network\Socket.h" />
+    <ClInclude Include="..\Classes\network\socket_engine.h" />
+    <ClInclude Include="..\Classes\network\socket_notify.h" />
+    <ClInclude Include="..\Classes\Platform\coPlatform.h" />
+    <ClInclude Include="..\Classes\scene\Auction_Box.h" />
+    <ClInclude Include="..\Classes\scene\Auction_Scene.h" />
+    <ClInclude Include="..\Classes\scene\bank_scene.h" />
+    <ClInclude Include="..\Classes\scene\CheckIn_scene.h" />
+    <ClInclude Include="..\Classes\scene\dialog_bank_password_modify.h" />
+    <ClInclude Include="..\Classes\scene\dialog_msg_box.h" />
+    <ClInclude Include="..\Classes\scene\dialog_password_modify.h" />
+    <ClInclude Include="..\Classes\scene\dialog_waiting.h" />
+    <ClInclude Include="..\Classes\scene\Exchange_Box.h" />
+    <ClInclude Include="..\Classes\scene\Exchange_Scene.h" />
+    <ClInclude Include="..\Classes\scene\lobby_scene.h" />
+    <ClInclude Include="..\Classes\scene\login_scene.h" />
+    <ClInclude Include="..\Classes\scene\prompt_box.h" />
+    <ClInclude Include="..\Classes\scene\ranking_scene.h" />
+    <ClInclude Include="..\Classes\scene\RechargeSelect1.h" />
+    <ClInclude Include="..\Classes\scene\RechargeSelect2.h" />
+    <ClInclude Include="..\Classes\scene\RechargeSelect3.h" />
+    <ClInclude Include="..\Classes\scene\RechargeSelect4.h" />
+    <ClInclude Include="..\Classes\scene\RechargeSelect5.h" />
+    <ClInclude Include="..\Classes\scene\register_scene.h" />
+    <ClInclude Include="..\Classes\scene\room_scene.h" />
+    <ClInclude Include="..\Classes\scene\setting_scene.h" />
+    <ClInclude Include="..\Classes\scene\splash_scene.h" />
+    <ClInclude Include="..\Classes\scene\store_scene.h" />
+    <ClInclude Include="..\Classes\scene\userinfo_scene.h" />
+    <ClInclude Include="..\Classes\scene\web_scene.h" />
+    <ClInclude Include="..\Classes\scene\WXShare.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj">
+      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

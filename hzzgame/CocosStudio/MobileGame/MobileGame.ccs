@@ -1,0 +1,299 @@
+<Solution>
+  <PropertyGroup Name="MobileGame" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="auction">
+          <Image Name="auction_bg.png" />
+          <Image Name="BT_AUCTION1.png" />
+          <Image Name="BT_AUCTION2.png" />
+          <Image Name="BT_AUCTION3.png" />
+          <Image Name="BT_AUCTION4.png" />
+          <Image Name="BT_AUCTION5.png" />
+          <Image Name="BT_AUCTION6.png" />
+          <Image Name="BT_BUY1.png" />
+          <Image Name="BT_BUY2.png" />
+          <Image Name="BT_CLOSE1.png" />
+          <Image Name="BT_CLOSE2.png" />
+          <Image Name="BT_NEXT1.png" />
+          <Image Name="BT_NEXT2.png" />
+          <Image Name="BT_ON1.png" />
+          <Image Name="BT_ON2.png" />
+          <Image Name="ED_SEARCH.png" />
+          <Image Name="sousuo1.png" />
+          <Image Name="sousuo2.png" />
+          <Image Name="touming.png" />
+        </Folder>
+        <Folder Name="bank">
+          <Image Name="baikuang.png" />
+          <Image Name="bank_bg.png" />
+          <Image Name="cun1.png" />
+          <Image Name="cun2.png" />
+          <Image Name="cunjinbi1.png" />
+          <Image Name="cunjinbi2.png" />
+          <Image Name="fangkuang1.png" />
+          <Image Name="fangkuang2.png" />
+          <Image Name="get.png" />
+          <Image Name="qu1.png" />
+          <Image Name="qu2.png" />
+          <Image Name="queren1.png" />
+          <Image Name="queren2.png" />
+          <Image Name="qujinbi1.png" />
+          <Image Name="qujinbi2.png" />
+          <Image Name="save.png" />
+          <Image Name="X1.png" />
+          <Image Name="X2.png" />
+          <Image Name="xiugai1.png" />
+          <Image Name="xiugai2.png" />
+          <Image Name="yanzheng1.png" />
+          <Image Name="yanzheng2.png" />
+          <Image Name="zengsong1.png" />
+          <Image Name="zengsong2.png" />
+        </Folder>
+        <Folder Name="CheckIn">
+          <Image Name="1.png" />
+          <Image Name="2.png" />
+          <Image Name="3.png" />
+          <Image Name="4.png" />
+          <Image Name="5.png" />
+          <Image Name="6.png" />
+          <Image Name="7.png" />
+          <Image Name="BT_CHECKIN_CLOSE1.png" />
+          <Image Name="BT_CHECKIN_CLOSE2.png" />
+          <Image Name="BT_CHECKIN_TODO1.png" />
+          <Image Name="BT_CHECKIN_TODO2.png" />
+          <Image Name="BT_CHECKIN_TODO3.png" />
+          <Image Name="DLG_CHECKIN_BACK.png" />
+        </Folder>
+        <Folder Name="common">
+          <Folder Name="msg_box">
+            <Image Name="bg.png" />
+            <Image Name="confirm.png" />
+          </Folder>
+          <Folder Name="waiting">
+            <Image Name="01.png" />
+            <Image Name="02.png" />
+            <Image Name="03.png" />
+            <Image Name="04.png" />
+            <Image Name="05.png" />
+            <Image Name="06.png" />
+            <Image Name="07.png" />
+            <Image Name="08.png" />
+            <Image Name="09.png" />
+            <Image Name="10.png" />
+            <Image Name="bg.png" />
+            <Image Name="cancel.png" />
+          </Folder>
+          <Image Name="bg.png" />
+          <Image Name="btn_back_1.png" />
+          <Image Name="btn_back_2.png" />
+          <Image Name="dialog_bg_1.png" />
+          <Image Name="dialog_button_1.png" />
+          <Image Name="dialog_button_2.png" />
+          <Image Name="dialog_close_1.png" />
+          <Image Name="dialog_close_2.png" />
+          <Image Name="dialog_input.png" />
+          <Image Name="item_bg.png" />
+          <Image Name="login_logo.png" />
+          <Image Name="radio1.png" />
+          <Image Name="radio2.png" />
+          <Image Name="title_bg.png" />
+          <Image Name="title_flower.png" />
+          <Image Name="title_logo.png" />
+        </Folder>
+        <Folder Name="Exchange">
+          <Image Name="bg.png" />
+          <Image Name="BT_BUY1.png" />
+          <Image Name="BT_BUY2.png" />
+          <Image Name="BT_CLOSE1.png" />
+          <Image Name="BT_CLOSE2.png" />
+          <Image Name="BT_NEXT1.png" />
+          <Image Name="BT_NEXT2.png" />
+          <Image Name="BT_ON1.png" />
+          <Image Name="BT_ON2.png" />
+          <Image Name="btn_back_1.png" />
+          <Image Name="btn_back_2.png" />
+          <Image Name="duijiang.png" />
+          <Image Name="ED_NUM.png" />
+        </Folder>
+        <Folder Name="lobby">
+          <TTF Name="1.ttf" />
+          <TTF Name="2.ttf" />
+          <TTF Name="3.TTC" />
+          <Image Name="bg.jpg" />
+          <Image Name="bottom_bar_bg.png" />
+          <Image Name="btn_back_1.png" />
+          <Image Name="btn_back_2.png" />
+          <Image Name="btn_bank_1.png" />
+          <Image Name="btn_bank_2.png" />
+          <Image Name="btn_horn_1.png" />
+          <Image Name="btn_horn_2.png" />
+          <Image Name="btn_shop_1.png" />
+          <Image Name="btn_shop_2.png" />
+          <Image Name="chongwu.png" />
+          <Image Name="duihua2.png" />
+          <Image Name="duihuan.png" />
+          <Image Name="duihuan2.png" />
+          <Image Name="emao.png" />
+          <Image Name="face_box.png" />
+          <Image Name="fenxiang.png" />
+          <Image Name="fenxiang2.png" />
+          <Image Name="horn_msg_bg.png" />
+          <Image Name="longjiao.png" />
+          <Image Name="paihang.png" />
+          <Image Name="paihang2.png" />
+          <Image Name="paimai.png" />
+          <Image Name="paimai2.png" />
+          <Image Name="photo.jpg" />
+          <Image Name="photo.png" />
+          <Image Name="qiandao.png" />
+          <Image Name="qiandao2.png" />
+          <Image Name="top_bar_bg.png" />
+          <Image Name="wupin.png" />
+          <Image Name="yinhang.png" />
+        </Folder>
+        <Folder Name="login">
+          <Image Name="11kaishiyouxi .png" />
+          <Image Name="11kuaisuzhuce.png" />
+          <Image Name="11qiehuanzhanghao.png" />
+          <Image Name="dl_denglu.png" />
+          <Image Name="kaishiyouxi  .png" />
+          <Image Name="kaishiyouxi.png" />
+          <Image Name="kuaisuzhuce.png" />
+          <Image Name="login_bg.jpg" />
+          <Image Name="login_box.png" />
+          <Image Name="login_btn_back_1.png" />
+          <Image Name="login_btn_back_2.png" />
+          <Image Name="login_button_1.png" />
+          <Image Name="login_button_2.png" />
+          <Image Name="login_input.png" />
+          <Image Name="login_logo.png" />
+          <Image Name="qiehuanzhanghao.png" />
+          <Image Name="userinfo_score.png" />
+          <Image Name="xlq.png" />
+        </Folder>
+        <Folder Name="ranking">
+          <Image Name="rank_bg.png" />
+          <Image Name="rank-no01.png" />
+          <Image Name="rank-no02.png" />
+          <Image Name="rank-no03.png" />
+          <Image Name="rank-rank-bg.png" />
+          <Image Name="X1.png" />
+          <Image Name="X2.png" />
+        </Folder>
+        <Folder Name="register">
+          <Image Name="btn_identify_code.png" />
+          <Image Name="btn_normal.png" />
+          <Image Name="btn_quick.png" />
+          <Image Name="btn_register_ok.png" />
+          <Image Name="normal_box.png" />
+          <Image Name="quick_box.png" />
+          <Image Name="register_input.png" />
+          <Image Name="title_register.png" />
+        </Folder>
+        <Folder Name="room">
+          <Image Name="bg.jpg" />
+          <Image Name="bg.png" />
+          <Image Name="btn_quick_start_1.png" />
+          <Image Name="btn_quick_start_2.png" />
+        </Folder>
+        <Folder Name="setting">
+          <Image Name="bar.png" />
+          <Image Name="btn_switch_accounts.png" />
+          <Image Name="button_input.png" />
+          <Image Name="title_setting.png" />
+        </Folder>
+        <Folder Name="store">
+          <Image Name="11weixin.png" />
+          <Image Name="11zhifubao.png" />
+          <Image Name="chongzhi_bk.png" />
+          <Image Name="pingguo.png" />
+          <Image Name="queren2.png" />
+          <Image Name="quren1.png" />
+          <Image Name="weixin.png" />
+          <Image Name="X1.png" />
+          <Image Name="X2.png" />
+          <Image Name="zhifubao.png" />
+        </Folder>
+        <Folder Name="storeweb">
+          <Image Name="chongzhi_bk.png" />
+        </Folder>
+        <Folder Name="table3">
+          <Image Name="chair.png" />
+          <Image Name="normal.png" />
+          <Image Name="playing.png" />
+          <Image Name="ready.png" />
+        </Folder>
+        <Folder Name="table4">
+          <Image Name="chair.png" />
+          <Image Name="normal.png" />
+          <Image Name="ready.png" />
+        </Folder>
+        <Folder Name="table6">
+          <Image Name="chair.png" />
+          <Image Name="normal.png" />
+          <Image Name="playing.png" />
+          <Image Name="ready.png" />
+        </Folder>
+        <Folder Name="userinfo">
+          <Image Name="horn.png" />
+          <Image Name="photo.jpg" />
+          <Image Name="photo_box.png" />
+          <Image Name="title_userinfo.png" />
+          <Image Name="userinfo_bank.png" />
+          <Image Name="userinfo_score.png" />
+          <Image Name="VIP.png" />
+          <Image Name="xlq.png" />
+        </Folder>
+        <Folder Name="WXShare">
+          <Image Name="11haoyou.png" />
+          <Image Name="11pengyouquan.png" />
+          <Image Name="BK_fenxiang.png" />
+          <Image Name="BT_CHECKIN_CLOSE1.png" />
+          <Image Name="BT_CHECKIN_CLOSE2.png" />
+          <Image Name="fenxianghaoyou.png" />
+          <Image Name="fenxiangpengyouquan.png" />
+          <Image Name="haoyou.png" />
+          <Image Name="pengyouquan.png" />
+        </Folder>
+        <Project Name="Auction.csd" Type="Scene" />
+        <Project Name="auctionBox.csd" Type="Layer" />
+        <Project Name="bank.csd" Type="Scene" />
+        <Project Name="bank_get.csd" Type="Scene" />
+        <Project Name="bank_save.csd" Type="Scene" />
+        <Project Name="bank_Transfer.csd" Type="Scene" />
+        <Project Name="CheckIn.csd" Type="Layer" />
+        <Project Name="Exchange.csd" Type="Scene" />
+        <Project Name="ExchangeBox.csd" Type="Layer" />
+        <Project Name="lobby.csd" Type="Scene" />
+        <Project Name="lobby_bottom.csd" Type="Layer" />
+        <Project Name="lobby_kindlist.csd" Type="Layer" />
+        <Project Name="lobby_serverlist.csd" Type="Layer" />
+        <Project Name="lobby_top.csd" Type="Layer" />
+        <Project Name="login.csd" Type="Scene" />
+        <Project Name="login1.csd" Type="Layer" />
+        <Project Name="login2.csd" Type="Layer" />
+        <Project Name="msgbox.csd" Type="Layer" />
+        <Project Name="password_modify.csd" Type="Layer" />
+        <Project Name="PromptBox.csd" Type="Layer" />
+        <Project Name="ranking.csd" Type="Scene" />
+        <Project Name="RechargeSelect.csd" Type="Layer" />
+        <Project Name="register.csd" Type="Scene" />
+        <Project Name="register1.csd" Type="Layer" />
+        <Project Name="register2.csd" Type="Layer" />
+        <Project Name="room.csd" Type="Scene" />
+        <Project Name="setting.csd" Type="Scene" />
+        <Project Name="store.csd" Type="Scene" />
+        <Project Name="storeweb.csd" Type="Scene" />
+        <Project Name="table2.csd" Type="Layer" />
+        <Project Name="table3.csd" Type="Layer" />
+        <Project Name="table4.csd" Type="Layer" />
+        <Project Name="table5.csd" Type="Layer" />
+        <Project Name="table6.csd" Type="Layer" />
+        <Project Name="userinfo.csd" Type="Scene" />
+        <Project Name="waiting.csd" Type="Layer" />
+        <Project Name="WXShare.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

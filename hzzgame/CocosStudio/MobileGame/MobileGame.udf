@@ -1,0 +1,65 @@
+<UserData Version="3.10.0.0">
+  <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.MobileGame" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="android-16" />
+        <iOS_Target Value="MobileGame-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="Android" />
+        <FrameworkVersion Value="cocos2d-x-3.10" />
+        <IsDebugKeystore Value="True" />
+        <KeystorePassword Value="" />
+        <KeystoreAliasName Value="" />
+        <KeystoreAliasPassword Value="" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="login.csd" />
+          <FilePathData Path="login1.csd" />
+          <FilePathData Path="lobby_serverlist.csd" />
+          <FilePathData Path="lobby_kindlist.csd" />
+          <FilePathData Path="lobby_bottom.csd" />
+          <FilePathData Path="bank_get.csd" />
+          <FilePathData Path="bank_save.csd" />
+          <FilePathData Path="bank_Transfer.csd" />
+          <FilePathData Path="store.csd" />
+          <FilePathData Path="lobby_top.csd" />
+          <FilePathData Path="room.csd" />
+          <FilePathData Path="CheckIn.csd" />
+          <FilePathData Path="Exchange.csd" />
+          <FilePathData Path="ExchangeBox.csd" />
+          <FilePathData Path="lobby.csd" />
+          <FilePathData Path="ranking.csd" />
+          <FilePathData Path="PromptBox.csd" />
+          <FilePathData Path="password_modify.csd" />
+          <FilePathData Path="msgbox.csd" />
+          <FilePathData Path="login2.csd" />
+          <FilePathData Path="register.csd" />
+          <FilePathData Path="register1.csd" />
+          <FilePathData Path="register2.csd" />
+          <FilePathData Path="WXShare.csd" />
+          <FilePathData Path="RechargeSelect.csd" />
+          <FilePathData Path="bank.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="lobby_bottom.csd" />
+      </Value>
+    </Item>
+  </Properties>
+</UserData>

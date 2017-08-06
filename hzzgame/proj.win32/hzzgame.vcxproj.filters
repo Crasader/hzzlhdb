@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{b2b5d72e-04a8-41e0-8d7d-57aabb68a79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{229519af-4e28-4997-afba-5fa560656e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{b0b46996-6d3e-4126-86c0-14ee48a56acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\games">
+      <UniqueIdentifier>{be5cdc85-ab83-4597-b213-a8d7c779efd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\kernel">
+      <UniqueIdentifier>{a5816e0e-1dcd-4fd3-81ae-ecc49b4c8770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\network">
+      <UniqueIdentifier>{294a7860-2f96-42fa-9990-ec49902bbf71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{854d4379-85ff-435d-9e77-383c5025f667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{881905bd-cdc6-4001-91dc-6e5527a001ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform\win32">
+      <UniqueIdentifier>{ff00228d-9c6f-4dcf-ad47-928d2c51a5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\games\ddz">
+      <UniqueIdentifier>{d3a3bbee-0b17-458c-8bb4-a4775c1fad91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\base_util.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\convert.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\JsonAide.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\MD5.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\custom_event.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\UIDialog.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\UIHelperEx.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\data\global_user_info.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kernel\game_kernel.cpp">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kernel\game_table_proxy.cpp">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kernel\game_user_manager.cpp">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kernel\plaza_kernel.cpp">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kernel\server_kernel.cpp">
+      <Filter>src\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\packet_helper.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\QPCipher.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\Socket.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\socket_engine.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\socket_notify.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Platform\win32\coPlatformWin32.cpp">
+      <Filter>src\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\Auction_Box.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\Auction_Scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\bank_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\CheckIn_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\dialog_bank_password_modify.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\dialog_msg_box.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\dialog_password_modify.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\dialog_waiting.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\Exchange_Box.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\Exchange_Scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\lobby_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\login_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\prompt_box.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\ranking_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\RechargeSelect1.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\RechargeSelect2.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\RechargeSelect3.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\RechargeSelect4.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\RechargeSelect5.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\register_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\room_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\setting_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\splash_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\store_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\userinfo_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\web_scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\WXShare.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\game_installer.cpp">
+      <Filter>src\games</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_back_card.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_card.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_logic.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_result.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_game_scene.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\ddz_out_card.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\games\ddz\dialog_box.cpp">
+      <Filter>src\games\ddz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\base_util.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\basictypes.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\convert.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\JsonAide.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\MD5.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\custom_event.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\UIDialog.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\UIHelperEx.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\data\global_user_info.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kernel\game_kernel.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kernel\game_table_proxy.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kernel\game_user_manager.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kernel\plaza_kernel.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kernel\server_kernel.h">
+      <Filter>src\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\packet_helper.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\QPCipher.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\Socket.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\socket_engine.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\socket_notify.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Platform\coPlatform.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\Auction_Box.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\Auction_Scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\bank_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\CheckIn_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\dialog_bank_password_modify.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\dialog_msg_box.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\dialog_password_modify.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\dialog_waiting.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\Exchange_Box.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\Exchange_Scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\lobby_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\login_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\prompt_box.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\ranking_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\RechargeSelect1.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\RechargeSelect2.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\RechargeSelect3.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\RechargeSelect4.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\RechargeSelect5.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\register_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\room_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\setting_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\splash_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\store_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\userinfo_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\web_scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\WXShare.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\game_installer.h">
+      <Filter>src\games</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\CMD_Ddz.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_back_card.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_card.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_logic.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_result.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_game_scene.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\ddz_out_card.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\games\ddz\dialog_box.h">
+      <Filter>src\games\ddz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

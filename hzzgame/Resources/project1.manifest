@@ -1,0 +1,13 @@
+{
+	"packageUrl" : "http://update2.hzzgame.com/update/",
+	"remoteManifestUrl" : "http://update2.hzzgame.com/update/project_update.manifest",
+	"remoteVersionUrl" : "http://update2.hzzgame.com/update/version.manifest",
+	"version" : "1.0.0",
+	"engineVersion" : "3.0 beta",
+
+	"assets" : {
+	},
+    
+    "searchPaths" : [
+    ]
+}
